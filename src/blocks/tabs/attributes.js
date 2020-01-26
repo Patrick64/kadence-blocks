@@ -218,7 +218,7 @@ const attributes = {
 	},
 	showPresets: {
 		type: 'bool',
-		default: true,
+		default: false,
 	},
 	subtitleFont: {
 		type: 'array',
