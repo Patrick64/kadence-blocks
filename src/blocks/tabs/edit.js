@@ -134,6 +134,7 @@ class KadenceTabs extends Component {
 		}
 	}
 	showSettings( key ) {
+		return false;
 		if ( undefined === this.state.settings[ key ] || 'all' === this.state.settings[ key ] ) {
 			return true;
 		} else if ( 'contributor' === this.state.settings[ key ] && ( 'contributor' === this.state.user || 'author' === this.state.user || 'editor' === this.state.user || 'admin' === this.state.user ) ) {
