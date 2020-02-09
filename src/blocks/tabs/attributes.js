@@ -214,7 +214,7 @@ const attributes = {
 	},
 	startTab: {
 		type: 'number',
-		default: '',
+		default: 1,
 	},
 	showPresets: {
 		type: 'bool',
